@@ -1,6 +1,7 @@
 const oze = localStorage.getItem("detail");
 const pricee = localStorage.getItem("amount");
 
+console.log(oze)
 // function render(name,prize){
 //     document.getElementById("descript").textContent = oze
 //     document.getElementById("price").textContent = pricee
@@ -27,5 +28,3 @@ function totalPrice(sub, flat){
 }
 
 totalPrice(parseFloat(flatRate), parseFloat(subTotal))
-
-
