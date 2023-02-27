@@ -1,5 +1,5 @@
-const oze = localStorage.getItem("detail");
-const pricee = localStorage.getItem("amount");
+const oze = localStorage.getItem("menu");
+const pricee = localStorage.getItem("money");
 
 console.log(oze)
 // function render(name,prize){
